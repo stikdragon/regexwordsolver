@@ -1,0 +1,50 @@
+[Solved] Tutorial, The OR symbol: Took 9ms, 1 solutions, first = *
+[Solved] Tutorial, A Range of characters: Took 7ms, 1 solutions, first = *
+[Solved] Tutorial, Characters NOT to include: Took 3ms, 1 solutions, first = *
+[Solved] Tutorial, Zero or more: Took 4ms, 1 solutions, first = **
+[Solved] Tutorial, Zero or one: Took 7ms, 1 solutions, first = **
+[Solved] Tutorial, One or more: Took 7ms, 1 solutions, first = **
+[Solved] Tutorial, Backreference: Took 6ms, 1 solutions, first = **
+[Solved] Tutorial, Specific amount: Took 6ms, 1 solutions, first = **
+[Solved] Tutorial, Space: Took 4ms, 2 solutions, first = *
+[Solved] Beginner, Beatles: Took 21ms, 1 solutions, first = ****
+[Solved] Beginner, Naughty: Took 16ms, 1 solutions, first = ****
+[Solved] Beginner, Ghost: Took 4ms, 1 solutions, first = ****
+[Solved] Beginner, Symbolism: Took 19ms, 1 solutions, first = ****
+[Solved] Beginner, Airstrip One: Took 17ms, 1 solutions, first = ****
+[Solved] Intermediate, Always remember: Took 19ms, 1 solutions, first = ******
+[Solved] Intermediate, Johnny: Took 93ms, 1 solutions, first = ******
+[Solved] Intermediate, Earth: Took 187ms, 1 solutions, first = *********
+[Solved] Intermediate, Encyclopedia: Took 2ms, 1 solutions, first = *********
+[Solved] Intermediate, Technology: Took 26ms, 1 solutions, first = ************
+[Solved] Experienced, Royal Dinner: Took 105ms, 1 solutions, first = ***************
+[Solved] Experienced, Regular Workout: Took 327ms, 1 solutions, first = *************************
+[Timed Out] Experienced, We apologise for the inconvenience: 
+[Timed Out] Experienced, Questionable: 
+[Timed Out] Experienced, Hamlet: 
+[Solved] Palindromeda, Ten o'clock: Took 6ms, 1 solutions, first = *********
+[Solved] Palindromeda, Third: Took 39ms, 1 solutions, first = *********
+[Solved] Palindromeda, Horn: Took 135ms, 1 solutions, first = ****************
+[Solved] Palindromeda, Open the lid: Took 853ms, 1 solutions, first = ****************
+[Timed Out] Palindromeda, Time Walker: 
+[Solved] Double Cross, Telekinesis: Took 3ms, 1 solutions, first = **
+[Solved] Double Cross, GMC Vandura: Took 1ms, 1 solutions, first = ******
+[Solved] Double Cross, Bat Man: Took 452ms, 1 solutions, first = *********
+[Solved] Double Cross, Big Mac: Took 96ms, 1 solutions, first = ************
+[Timed Out] Double Cross, The Lektor Device: 
+[Solved] Cities, Pisco Sour: Took 0ms, 1 solutions, first = ****
+[Solved] Cities, Roman Latin: Took 2ms, 1 solutions, first = *********
+[Solved] Cities, Big and hot: Took 5ms, 2 solutions, first = ********
+[Timed Out] Cities, Alpha World City: 
+[Timed Out] Cities, Home: 
+[Solved] Volapük, Bal: Took 1ms, 1 solutions, first = ******
+[Solved] Volapük, Tel: Took 21ms, 1 solutions, first = *********
+[Timed Out] Volapük, Kil: 
+[Solved] Volapük, Fol: Took 604ms, 2 solutions, first = ****************
+[Timed Out] Volapük, Lul: 
+[Timed Out] Hamlet, The Ghost: 
+[Timed Out] Hamlet, Hamlet and Ophelia: 
+[Timed Out] Hamlet, The Play: 
+[Timed Out] Hamlet, Laertes: 
+[Timed Out] Hamlet, Memento: 
+[Timed Out] Hamlet, The End:
