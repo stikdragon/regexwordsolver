@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		Main m = new Main();
-//		m.run("Volapük");
+//		m.run("VolapÃ¼k");
 //		m.run("Cities");
 		m.run(null);
 
@@ -82,7 +82,7 @@ public class Main {
 		Solver solver = new Solver(puzz.getWidth(), puzz.getHeight());
 		for (PuzzleRegex pr : puzz.getClues())
 			solver.addClue(pr.getIndex(), pr.getRegex(), pr.getSide());
-		solver.setAvailableCharacters("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?-/*.\\ ',:\"$£%^&()[]{}<>");
+		solver.setAvailableCharacters(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`{|}~");
 		solver.setOutput(output);
 		solver.setTimeout(1000);
 		long start = System.currentTimeMillis();
