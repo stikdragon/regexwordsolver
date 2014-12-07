@@ -3,16 +3,24 @@ package uk.co.stikman.regexwordsolve;
 import java.util.ArrayList;
 import java.util.List;
 
+import uk.co.stikman.regexwordsolve.regexprinv.Regex;
+
 public class Main {
 
 	private static final int	THREAD_COUNT	= 8;
 
 	public static void main(String[] args) {
 
-		Main m = new Main();
+		
+		Regex re = new Regex("1([ABC]|2)+(A?).*");
+//		Regex re = new Regex("A|(S(B))|C");
+		re.getRoot().printStructure(new StructurePrinterImpl());
+		
+		
+//		Main m = new Main();
 //		m.run("Volapük");
 //		m.run("Cities");
-		m.run(null);
+//		m.run(null);
 
 	}
 
