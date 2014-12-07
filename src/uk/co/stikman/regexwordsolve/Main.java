@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import uk.co.stikman.regexwordsolve.regexprinv.Regex;
+import uk.co.stikman.regexwordsolve.regexprinv.RenderTarget;
+import uk.co.stikman.regexwordsolve.regexprinv.State;
 
 public class Main {
 
@@ -11,8 +13,19 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		Regex re = new Regex("AB");
+		RenderTarget target = new RenderTarget() {
+			@Override
+			public void write(char ch) {
+				
+			}
+		};
+		State st = new State(100);
+		re.getRoot().render(st, target);
 		
-		Regex re = new Regex("1([ABC]|2)+(A?).*");
+		//Regex re = new Regex("1([ABC]|2)+(A?).*");
+		
+		
 //		Regex re = new Regex("A|(S(B))|C");
 		re.getRoot().printStructure(new StructurePrinterImpl());
 		

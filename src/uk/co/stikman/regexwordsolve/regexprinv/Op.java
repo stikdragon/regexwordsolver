@@ -54,8 +54,6 @@ public abstract class Op {
 		this.id = id;
 	}
 
-	public abstract int getStateCount();
-
 	public Regex getOwner() {
 		return owner;
 	}
@@ -68,6 +66,8 @@ public abstract class Op {
 	 * @param target
 	 * @return
 	 */
-	public abstract boolean render(State state, RenderTarget target);
+	public boolean render(State state, RenderTarget target) {
+		return true;
+	}
 
 }

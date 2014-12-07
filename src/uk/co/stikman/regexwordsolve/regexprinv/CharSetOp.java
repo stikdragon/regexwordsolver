@@ -38,10 +38,6 @@ public class CharSetOp extends Op {
 		super.walk(tgt);
 	}
 
-	@Override
-	public int getStateCount() {
-		return chars.size();
-	}
 
 
 }

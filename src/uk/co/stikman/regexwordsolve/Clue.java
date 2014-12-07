@@ -1,7 +1,6 @@
 package uk.co.stikman.regexwordsolve;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -47,20 +46,20 @@ public class Clue {
 			char ch = string.charAt(ptr++);
 			if (isReserved(ch)) {
 				switch (ch) {
-				case '[':
-					parseCharClass();
-					break;
-				case '\\':
-					ch = string.charAt(ptr++);
-					if (ch == 'd')
-						validChars.addAll(getDigits());
-					else if (ch == 's') {
-						validChars.add(' ');
-					} else
-						validChars.add(ch);
-					continue;
-				case '.':
-					validChars.addAll(solver.getChars());
+					case '[':
+						parseCharClass();
+						break;
+					case '\\':
+						ch = string.charAt(ptr++);
+						if (ch == 'd')
+							validChars.addAll(getDigits());
+						else if (ch == 's') {
+							validChars.add(' ');
+						} else
+							validChars.add(ch);
+						continue;
+					case '.':
+						validChars.addAll(solver.getChars());
 				}
 
 			} else {
@@ -130,19 +129,19 @@ public class Clue {
 	private static boolean isReserved(char ch) {
 		// [\^$.|?*+()
 		switch (ch) {
-		case '[':
-		case '\\':
-		case '^':
-		case '|':
-		case '?':
-		case '*':
-		case '+':
-		case '(':
-		case ')':
-		case '.':
-			return true;
-		default:
-			return false;
+			case '[':
+			case '\\':
+			case '^':
+			case '|':
+			case '?':
+			case '*':
+			case '+':
+			case '(':
+			case ')':
+			case '.':
+				return true;
+			default:
+				return false;
 		}
 	}
 
@@ -157,7 +156,7 @@ public class Clue {
 	public List<Set<Character>> solve(List<Set<Character>> start) {
 		List<Set<Character>> res = new ArrayList<>();
 		for (int i = 0; i < start.size(); ++i)
-			res.add(new HashSet<>());
+			res.add(new HashSet<Character>());
 		solveInternal(start, res, null);
 		return res;
 	}

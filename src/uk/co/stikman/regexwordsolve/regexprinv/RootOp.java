@@ -29,10 +29,6 @@ public class RootOp extends Op {
 		super.walk(tgt);
 	}
 
-	@Override
-	public int getStateCount() {
-		return 1;
-	}
 
 
 }

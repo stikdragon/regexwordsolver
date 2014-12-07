@@ -57,13 +57,7 @@ public class CountOp extends Op {
 		super.walk(tgt);
 	}
 
-	@Override
-	public int getStateCount() {
-		if (getMax() == -1) 
-			return getOwner().getMaxLength() - getMin();
-		else
-			return Math.min(getOwner().getMaxLength(), getMax()) - getMin();
-	}
+	
 
 	
 }

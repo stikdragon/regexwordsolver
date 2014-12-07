@@ -9,7 +9,6 @@ public class RegexIterator {
 		state = new State(regex.getNodes().size());
 		int i = 0;
 		for (Op op : regex.getNodes()) {
-			state.lengths[i] = op.getStateCount();
 					
 					++i;
 		}

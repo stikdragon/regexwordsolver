@@ -16,20 +16,10 @@ public class AnyCharOp extends Op {
 		super.walk(tgt);
 	}
 
-	@Override
-	public int getStateCount() {
-		return getOwner().getCharSet().size();
-	}
 
 	@Override
 	public boolean render(State state, RenderTarget target) {
 		int a = state.indexes[getId()]++;
-		if (a >= getStateCount()) {
-			//
-			// reset ours and 
-		} else {
-			
-		}
 		target.write(getOwner().getCharSet().get(a));
 		// TODO Auto-generated method stub
 		return false;
